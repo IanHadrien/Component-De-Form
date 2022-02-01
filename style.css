@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background: url('images/bg-intro-mobile.png') repeat;
+    background-color: hsl(0, 100%, 74%);
+    padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+/* --- Header --- */
+header {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+header h2 {
+    color: white;
+    padding: 4rem 0 2rem 0;
+}
+
+header p {
+    color: white;
+    padding-bottom: 3rem;
+}
+
+header button {
+    border: none;
+    border-radius: 8px;
+    padding: 1.5rem;
+    background: hsl(248, 32%, 49%);
+    color: white;
+}
+
+header button:hover {
+    background: hsl(248, 35%, 55%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+header button span {
+    font-weight: 800;
+    color: white;
+}
+
+/* --- Main --- */
+main {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+main p {
+    color: hsl(0, 100%, 74%);;
+    text-align: right;
+    font-size: 12px;
+}
+
+.form input ,
+.form button {
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 7px;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.form button {
+    border: none;
+    border-bottom: 3px solid hsl(154, 61%, 42%);;
+    color: white;
+    text-align: center;
+    background: hsl(154, 59%, 51%);
+}
+
+.form button:hover{
+    cursor: pointer;
+}
+
+/* --- Footer --- */
+.footer p {
+    text-align: center;
+    font-size: 13px;
+    color: hsl(246, 25%, 77%);
+}
+
+.footer span {
+    color: hsl(0, 100%, 74%);
+    font-weight: 700;
+}
+
+/* --- Responsividade --- */
+@media (min-width: 700px){
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: center;
+        justify-content: center;
+    }
+
+    header {
+        margin-right: 2rem;
+        text-align: left;
+    }
+
+    header h2 {
+        font-size: 40px;
+    }
+}
