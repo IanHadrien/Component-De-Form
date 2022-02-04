@@ -28,24 +28,3 @@ Users should be able to:
 ## Author
 
 - Linkedin - [Ian Hadrien](https://www.linkedin.com/in/ian-hadrien-8051181b1/)
-
-<br>
-
-### Running
-
-```bash
-# clone this repository
-$ git clone https://github.com/IanHadrien/Component-De-Form.git
-
-# access the project folder in the terminal/cmd
-$ cd Component-De-Form
-
-# install the dependencies
-$ yarn
-
-# run the application in development mode
-$ yarn start
-
-# the server starts on the port:3000 - access <http://localhost:3000>
-```
-# Sign-Up-Form
